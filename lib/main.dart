@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:idea_projects/about.dart';
 void main(){
   runApp(MyApp());
 }
@@ -102,24 +103,24 @@ class _MyHomePageState extends State<MyHomePage>{
                   //     },
                   //   ),
                   // ),
-                  // Padding(
-                  //   padding: EdgeInsets.symmetric(horizontal: 16.0, vertical:12.0),
-                  //   child: MaterialButton(
-                  //     minWidth: 1000,
-                  //     child: Text('Wish to donate? DONATE HERE',
-                  //       style: TextStyle(
-                  //         color: Colors.white,
-                  //       ),),
-                  //     color: Colors.grey,
-                  //     onPressed: (){
-                  //       Navigator.of(context).push(
-                  //           MaterialPageRoute(
-                  //             builder: (context) => MyDonationPage(),
-                  //           )
-                  //       );
-                  //     },
-                  //   ),
-                  // ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 16.0, vertical:12.0),
+                    child: MaterialButton(
+                      minWidth: 1000,
+                      child: Text('ABOUT US',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),),
+                      color: Colors.grey,
+                      onPressed: (){
+                        Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => AboutPage(),
+                            )
+                        );
+                      },
+                    ),
+                  ),
                 ],
               ),
             ),
