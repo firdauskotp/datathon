@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:idea_projects/emission.dart';
 import 'package:idea_projects/energy.dart';
 import 'package:idea_projects/unemployed.dart';
+import 'package:idea_projects/benefits.dart';
+import 'package:idea_projects/rider.dart';
+import 'package:idea_projects/summary.dart';
+import 'package:idea_projects/zeromass.dart';
 
 class MenuPage extends StatefulWidget {
   final String title = "MAIN MENU";
@@ -194,7 +198,7 @@ class _MenuPageState extends State<MenuPage>{
                     onTap: (){
                       Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => EnergyPage(),
+                            builder: (context) => BenefitPage(),
                           )
                       );
                     },
@@ -243,7 +247,7 @@ class _MenuPageState extends State<MenuPage>{
                     onTap: (){
                       Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => EnergyPage(),
+                            builder: (context) => ZeroMassPage(),
                           )
                       );
                     },
@@ -292,7 +296,7 @@ class _MenuPageState extends State<MenuPage>{
                     onTap: (){
                       Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => EnergyPage(),
+                            builder: (context) => RiderPage(),
                           )
                       );
                     },
@@ -350,7 +354,7 @@ class _MenuPageState extends State<MenuPage>{
                     onTap: (){
                       Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => EnergyPage(),
+                            builder: (context) => SummaryPage(),
                           )
                       );
                     },
