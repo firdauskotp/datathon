@@ -54,34 +54,37 @@ class _MenuPageState extends State<MenuPage>{
                     child: Container(
 
                       // child: Text("Unemployed Percentage", style: TextStyle(fontSize: 20)),
-                      child:RichText(
+                      child: Align(
+                        child:RichText(
 
-                        text: TextSpan(
+                          text: TextSpan(
 
 
-                            children: [
-                              WidgetSpan(
-                                child: Icon(Icons.cases_sharp, size: 60),
-                              ),
-                              TextSpan(
-                                text: '\n Unemployed \n Percentage',
-                                style: TextStyle(fontSize: 15, color: Colors.black),
-                              ),
-                              TextSpan(
-                                text: '\n 91.71%',
-                                style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black
+                              children: [
+                                WidgetSpan(
+                                  child: Icon(Icons.cases_sharp, size: 60),
                                 ),
+                                TextSpan(
+                                  text: '\n Unemployed \n Percentage',
+                                  style: TextStyle(fontSize: 15, color: Colors.black),
+                                ),
+                                TextSpan(
+                                  text: '\n 91.71%',
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black
+                                  ),
 
-                              ),
-                            ]
+                                ),
+                              ]
+                          ),
                         ),
                       ),
-                      width: 300,
+
+                      width: 3000,
                       height: 130,
-                      color: Colors.green,
+                      color: Colors.red,
                     ),
                   ),
                 ),
@@ -100,31 +103,34 @@ class _MenuPageState extends State<MenuPage>{
                     child: Container(
 
                       // child: Text("Unemployed Percentage", style: TextStyle(fontSize: 20)),
-                      child:RichText(
+                      child: Align(
+                        child:RichText(
 
-                        text: TextSpan(
+                          text: TextSpan(
 
 
-                            children: [
-                              WidgetSpan(
-                                child: Icon(Icons.fireplace, size: 60),
-                              ),
-                              TextSpan(
-                                text: '\n CO2 \n Emission',
-                                style: TextStyle(fontSize: 15, color: Colors.black),
-                              ),
-                              TextSpan(
-                                text: '\n Tap for more information',
-                                style: TextStyle(
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.black
+                              children: [
+                                WidgetSpan(
+                                  child: Icon(Icons.fireplace, size: 60),
                                 ),
+                                TextSpan(
+                                  text: '\n CO2 \n Emission',
+                                  style: TextStyle(fontSize: 15, color: Colors.black),
+                                ),
+                                TextSpan(
+                                  text: '\n Tap for more information',
+                                  style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black
+                                  ),
 
-                              ),
-                            ]
+                                ),
+                              ]
+                          ),
                         ),
                       ),
+
                       width: 300,
                       height: 130,
                       color: Colors.green,
@@ -146,31 +152,239 @@ class _MenuPageState extends State<MenuPage>{
                     child: Container(
 
                       // child: Text("Unemployed Percentage", style: TextStyle(fontSize: 20)),
-                      child:RichText(
+                      child:Align(
+                        child:RichText(
 
-                        text: TextSpan(
+                          text: TextSpan(
 
 
-                            children: [
-                              WidgetSpan(
-                                child: Icon(Icons.bolt, size: 60),
-                              ),
-                              TextSpan(
-                                text: '\n Energy \n Consumption',
-                                style: TextStyle(fontSize: 15, color: Colors.black),
-                              ),
-                              TextSpan(
-                                text: '\n Tap for more information',
-                                style: TextStyle(
-                                    fontSize: 12,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.black
+                              children: [
+                                WidgetSpan(
+                                  child: Icon(Icons.bolt, size: 60),
                                 ),
+                                TextSpan(
+                                  text: '\n Energy \n Consumption',
+                                  style: TextStyle(fontSize: 15, color: Colors.black),
+                                ),
+                                TextSpan(
+                                  text: '\n Tap for more information',
+                                  style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black
+                                  ),
 
-                              ),
-                            ]
+                                ),
+                              ]
+                          ),
                         ),
                       ),
+
+                      width: 300,
+                      height: 130,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+
+                Card(
+
+                  child: InkWell(
+                    splashColor: Colors.green.withAlpha(30),
+                    onTap: (){
+                      Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => EnergyPage(),
+                          )
+                      );
+                    },
+                    child: Container(
+
+                      // child: Text("Unemployed Percentage", style: TextStyle(fontSize: 20)),
+                      child:Align(
+                        child:RichText(
+
+                          text: TextSpan(
+
+
+                              children: [
+                                WidgetSpan(
+                                  child: Icon(Icons.wb_sunny, size: 60),
+                                ),
+                                TextSpan(
+                                  text: '\n Vertical Farm \n Benefits',
+                                  style: TextStyle(fontSize: 15, color: Colors.black),
+                                ),
+                                TextSpan(
+                                  text: '\n Tap for more information',
+                                  style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black
+                                  ),
+
+                                ),
+                              ]
+                          ),
+                        ),
+                      ),
+
+                      width: 300,
+                      height: 130,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+
+                Card(
+
+                  child: InkWell(
+                    splashColor: Colors.green.withAlpha(30),
+                    onTap: (){
+                      Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => EnergyPage(),
+                          )
+                      );
+                    },
+                    child: Container(
+
+                      // child: Text("Unemployed Percentage", style: TextStyle(fontSize: 20)),
+                      child:Align(
+                        child:RichText(
+
+                          text: TextSpan(
+
+
+                              children: [
+                                WidgetSpan(
+                                  child: Icon(Icons.water, size: 60),
+                                ),
+                                TextSpan(
+                                  text: '\n Zero Mass \n Water',
+                                  style: TextStyle(fontSize: 15, color: Colors.black),
+                                ),
+                                TextSpan(
+                                  text: '\n Tap for more information',
+                                  style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black
+                                  ),
+
+                                ),
+                              ]
+                          ),
+                        ),
+                      ),
+
+                      width: 300,
+                      height: 130,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+
+                Card(
+
+                  child: InkWell(
+                    splashColor: Colors.green.withAlpha(30),
+                    onTap: (){
+                      Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => EnergyPage(),
+                          )
+                      );
+                    },
+                    child: Container(
+
+                      // child: Text("Unemployed Percentage", style: TextStyle(fontSize: 20)),
+                      child:Align(
+                        child:RichText(
+
+                          text: TextSpan(
+
+
+                              children: [
+                                WidgetSpan(
+                                  child: Icon(Icons.emoji_transportation, size: 60),
+                                ),
+                                TextSpan(
+                                  text: '\n Ridership in \n Urban Valley',
+                                  style: TextStyle(fontSize: 15, color: Colors.black),
+                                ),
+                                TextSpan(
+                                  text: '\n Tap for more information',
+                                  style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black
+                                  ),
+
+                                ),
+                              ]
+                          ),
+                        ),
+                      ),
+
+                      width: 300,
+                      height: 130,
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+
+
+
+
+
+
+
+
+
+
+                Card(
+
+                  child: InkWell(
+                    splashColor: Colors.green.withAlpha(30),
+                    onTap: (){
+                      Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => EnergyPage(),
+                          )
+                      );
+                    },
+                    child: Container(
+
+                      // child: Text("Unemployed Percentage", style: TextStyle(fontSize: 20)),
+                      child: Align(
+                        child:RichText(
+
+                          text: TextSpan(
+
+
+                              children: [
+                                WidgetSpan(
+                                  child: Icon(Icons.summarize, size: 60,),
+                                ),
+                                TextSpan(
+                                  text: '\n Summary',
+                                  style: TextStyle(fontSize: 15, color: Colors.black),
+                                ),
+                                TextSpan(
+                                  text: '\n Tap for more information',
+                                  style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black
+                                  ),
+
+                                ),
+                              ]
+                          ),
+                        ),
+                      ),
+
                       width: 300,
                       height: 130,
                       color: Colors.green,
