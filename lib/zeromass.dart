@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ZeroMassPage extends StatefulWidget {
-  final String title = "BENEFITS OF VERTICAL FARM";
+  final String title = "ZERO MASS WATER";
 
   @override
   _ZeroMassPageState createState() => _ZeroMassPageState();
@@ -27,12 +27,14 @@ class _ZeroMassPageState extends State<ZeroMassPage>{
           child: Column(
             children: <Widget>[
               Padding(padding: const EdgeInsets.all(30.0),),
-              Image.asset('images/Energy.png'),
+              Image.asset('images/ZMW-1.jpg'),
 
               Text(
-                "\n \nAs of now, China is the largest consumer of primary energy in the world that is around 145.46 exajoules(EJ) while Spain is the lowest consumer that is around 4.97 EJ "
-
-                    "\n \nThe only source of primary energy to see an increase in consumption is renewables compared to fossil fuels like coal and oil",
+                "\n \nZero mass water is a developer and manufacturer of solar-powered devices designed to extract drinkable water from the atmosphere. The main drawback of this is the pricing as solar-powered devices costs a lot."
+                "\n \nHowever, zero mass water more than makes up for it as it has its own benefits. One of it being that it is truly renewable as the water supply will be increased when sunlight is exposed."
+                "\n \nZero mass water works by first installing a solar-powered hydropanel where sunlight is exposed. The hydropanel will then use a fan to suck air into the unit. "
+                "The air is passed across a hygroscopic material that absorbs ambient air moisture. Then, the solar energy is applied to respire the vapour off the material. This will increase the humidity inside the unit. "
+                "The vapour is then condesnsed into a storage tank and finally the amount of water is generated. The generated amount o water depends on sublight and relative humidity.",
                 textAlign: TextAlign.justify,
                 style: TextStyle(
                   fontWeight: FontWeight.normal,

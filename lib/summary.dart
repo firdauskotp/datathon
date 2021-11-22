@@ -27,13 +27,71 @@ class _SummaryPageState extends State<SummaryPage>{
           child: Column(
             children: <Widget>[
               Padding(padding: const EdgeInsets.all(30.0),),
+              Image.asset('images/emissionChart.png'),
+
+              Text(
+             "\n \nCarbon Dioxide Emission",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontWeight: FontWeight.normal,
+                  fontSize: 23,
+                  color: Colors.green,
+                  backgroundColor: Colors.black,
+                  fontFamily: "ShadowsIntoLight",
+                ),
+              ),
+
+              Padding(padding: const EdgeInsets.all(30.0),),
               Image.asset('images/Energy.png'),
 
               Text(
-                "\n \nAs of now, China is the largest consumer of primary energy in the world that is around 145.46 exajoules(EJ) while Spain is the lowest consumer that is around 4.97 EJ "
+                "\n \nEnergy Consumption",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontWeight: FontWeight.normal,
+                  fontSize: 23,
+                  color: Colors.green,
+                  backgroundColor: Colors.black,
+                  fontFamily: "ShadowsIntoLight",
+                ),
+              ),
 
-                    "\n \nThe only source of primary energy to see an increase in consumption is renewables compared to fossil fuels like coal and oil",
-                textAlign: TextAlign.justify,
+              Padding(padding: const EdgeInsets.all(30.0),),
+              Image.asset('images/tableBenefits.png'),
+
+              Text(
+                "\n \nVertical Farm Benefits",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontWeight: FontWeight.normal,
+                  fontSize: 23,
+                  color: Colors.green,
+                  backgroundColor: Colors.black,
+                  fontFamily: "ShadowsIntoLight",
+                ),
+              ),
+
+              Padding(padding: const EdgeInsets.all(30.0),),
+              Image.asset('images/ZMW-1.jpg'),
+
+              Text(
+                "\n \nHow Zero Mass Water Works",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontWeight: FontWeight.normal,
+                  fontSize: 23,
+                  color: Colors.green,
+                  backgroundColor: Colors.black,
+                  fontFamily: "ShadowsIntoLight",
+                ),
+              ),
+
+              Padding(padding: const EdgeInsets.all(30.0),),
+              Image.asset('images/Ridership.png'),
+
+              Text(
+                "\n \nDaily Average Ridership in Urban Valley by Transport in 2018",
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontWeight: FontWeight.normal,
                   fontSize: 23,

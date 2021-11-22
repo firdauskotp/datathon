@@ -72,6 +72,8 @@ flutter:
     - images/emissionChart.png
     - images/Energy.png
     - images/tableBenefits.png
+    - images/Ridership.png
+    - images/ZMW-1.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

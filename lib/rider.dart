@@ -27,12 +27,12 @@ class _RiderPageState extends State<RiderPage>{
           child: Column(
             children: <Widget>[
               Padding(padding: const EdgeInsets.all(30.0),),
-              Image.asset('images/Energy.png'),
+              Image.asset('images/Ridership.png'),
 
               Text(
-                "\n \nAs of now, China is the largest consumer of primary energy in the world that is around 145.46 exajoules(EJ) while Spain is the lowest consumer that is around 4.97 EJ "
+                "\n \nAs of 2018, the LRT KJ Line is the most used public transport while the Putrajaya Bus is the least. This is mostly due to the availability of the transportation and the price. MRT as well was just starting to grow during that year."
 
-                    "\n \nThe only source of primary energy to see an increase in consumption is renewables compared to fossil fuels like coal and oil",
+                    "\n \n LRT KJ already have 37 stations that ranges from Gombak all the way to Putra Heights. Hence it is one of the most accessible transportation for citizens to board.",
                 textAlign: TextAlign.justify,
                 style: TextStyle(
                   fontWeight: FontWeight.normal,
