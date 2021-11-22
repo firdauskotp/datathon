@@ -1,3 +1,13 @@
+#INSTRUCTIONS FOR INSTALLING THE APP THROUGH THE CODEE
+## Note that this app can only be run on Android Phones
+
+1. Clone the repository
+2. Download an IDE for flutter such as IntelliJ IDEA or VS Code and setup your flutter environment
+3. Enable USB Debugging on your phone (You most probably have to enable developer mode on your android)
+4. Connect your phone to the PC
+5. Open the IDE
+6. Press the run button
+
 # idea_projects
 
 A new Flutter project.
