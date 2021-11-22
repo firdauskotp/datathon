@@ -39,7 +39,8 @@ Widget build(BuildContext context){
             ),
 
             Text(
-                  "This application is created to promote an eco friendly neighbourhood. ",
+              "This application is created to promote an eco-friendly neighbourhood. By using this app,"
+              "the user can have a look at the statistics of why the neighbourhood is not eco-friendly",
               textAlign: TextAlign.justify,
               style: TextStyle(
                 fontWeight: FontWeight.normal,

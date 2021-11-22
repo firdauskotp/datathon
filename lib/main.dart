@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:idea_projects/about.dart';
+import 'package:idea_projects/menu.dart';
+
 void main(){
   runApp(MyApp());
 }
@@ -67,42 +69,27 @@ class _MyHomePageState extends State<MyHomePage>{
                     padding: EdgeInsets.symmetric(vertical:16.0, horizontal: 16.0),
                     child: Divider(),
                   ),
-                  // Padding(
-                  //     padding: EdgeInsets.symmetric(horizontal: 16.0, vertical:12.0),
-                  //     child: MaterialButton(
-                  //       minWidth: 1000,
-                  //       child: Text('Have an account? LOGIN HERE',
-                  //         style: TextStyle(
-                  //           color: Colors.white,
-                  //         ),),
-                  //       color: Colors.grey,
-                  //       onPressed: (){
-                  //         Navigator.of(context).push(
-                  //             MaterialPageRoute(
-                  //               builder: (context) => LoginPage(),
-                  //             )
-                  //         );
-                  //       },
-                  //     )
-                  // ),
-                  // Padding(
-                  //   padding: EdgeInsets.symmetric(horizontal: 16.0, vertical:12.0),
-                  //   child: MaterialButton(
-                  //     minWidth: 1000,
-                  //     child: Text('Create an account? REGISTER HERE',
-                  //       style: TextStyle(
-                  //         color: Colors.white,
-                  //       ),),
-                  //     color: Colors.grey,
-                  //     onPressed: (){
-                  //       Navigator.of(context).push(
-                  //           MaterialPageRoute(
-                  //             builder: (context) => RegisterPage(),
-                  //           )
-                  //       );
-                  //     },
-                  //   ),
-                  // ),
+
+
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 16.0, vertical:12.0),
+                    child: MaterialButton(
+                      minWidth: 1000,
+                      child: Text('MENU',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),),
+                      color: Colors.grey,
+                      onPressed: (){
+                        Navigator.of(context).push(
+                            MaterialPageRoute(
+                              builder: (context) => MenuPage(),
+                            )
+                        );
+                      },
+                    ),
+                  ),
+
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 16.0, vertical:12.0),
                     child: MaterialButton(
