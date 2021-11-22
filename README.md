@@ -1,4 +1,4 @@
-#INSTRUCTIONS FOR INSTALLING THE APP THROUGH THE CODEE
+# INSTRUCTIONS FOR INSTALLING THE APP THROUGH THE CODE
 ## Note that this app can only be run on Android Phones
 
 1. Clone the repository
